@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+body {
+    font-size: 19px;
+    background-color: grey;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+
+.row {
+    margin:0;
+}
+
+.about {
+    padding: 2em;
+    background-color: rgba(0,0,255,0.3);
+}
+.event {
+    padding: 2em;
+    background-color: rgba(0,50,150,0.7);
+}
+
+.datebox {
+    height: 7.5em;
+    width: 7.5em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: red;
+}
+
+.image {
+    /* position: relative; */
+    margin: auto;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.datebox-wrap {
+    overflow: visible;
+    height: 2em;
+    width: 2em;
+    position: relative;
+    top: -4.5em;
+    float: left;
+}
+
+.info {
+    background-color: aliceblue;
+    padding: 3em;
+    max-width: 20em;
+    position: relative;
+    float: right;
+    bottom: 10em;
+    right: -5em;
+    margin-right: 5em;
+}
